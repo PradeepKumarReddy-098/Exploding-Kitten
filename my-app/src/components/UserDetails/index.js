@@ -30,7 +30,7 @@ const UserDetails = () => {
         }
        
     }else{
-        setError("Please Enter username or Create the it")
+        setError("Please Enter username or Create the it") // if user not provided the name
     }
   }
 
