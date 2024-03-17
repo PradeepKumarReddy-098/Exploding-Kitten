@@ -1,0 +1,23 @@
+.rules-botton{
+    float: right;
+    padding:10px;
+    margin-right:15px;
+    border:none;
+    border-radius: 15px;
+    color:#fff;
+    background-color: magenta;
+}
+
+.close-button{
+    padding:10px;
+    margin-right:15px;
+    border:none;
+    border-radius: 15px;
+    color:#fff;
+    background-color: rgb(237, 73, 67);
+}
+
+.popup-content{
+    padding:15px;
+    border-radius: 15px;
+}

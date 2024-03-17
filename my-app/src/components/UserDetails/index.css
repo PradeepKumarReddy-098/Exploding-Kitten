@@ -1,0 +1,55 @@
+.App-container{
+    width:100%;
+}
+
+.user-container{
+    height:60vh;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.game-heading{
+    text-align: center;
+}
+
+.user-form-container{
+    width:50%;
+    background-color: aliceblue;
+    border-radius: 5%;
+    padding:20px;
+}
+.user-form-container h1{
+    text-align: center;
+}
+
+.user-form{
+    padding:10px;
+}
+
+.user-form input{
+    padding:10px;
+    
+}
+.user-form select{
+    padding:8px;
+    margin-top: 10px;
+}
+.user-form label{
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.user-form button{
+    background-color: rgb(224, 77, 224);
+    color:#fff;
+    border:none;
+    border-radius: 12px;
+    padding:10px;
+    margin-top: 15px;
+}
+
+.user-container p{
+    color:red;
+}

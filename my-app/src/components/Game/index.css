@@ -1,0 +1,76 @@
+
+.game-container{
+    padding:20px;
+    height:100vh;
+    width:100%;
+    background-color: rgb(225, 245, 249);
+}
+
+.game{
+    width:100%;
+    display:flex;
+}
+
+.drawn-card-details{
+    text-align: center;
+    font-size: 20px;
+    color:rgb(64, 35, 63);
+}
+
+.game-card-details-container{
+    width:65%;
+}
+
+.player-name{
+    margin-bottom: 0;
+}
+
+.player-history{
+    display:flex;
+    align-items: center;
+}
+
+.exit-btn{
+    float:right;
+    background-color: red;
+    color:#fff;
+    padding:10px;
+    border:none;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+
+.player-history p{
+    margin-right: 20px;
+}
+
+.draw-btn{
+    margin-top: 15px;
+    background-color: darkorchid;
+    color:#fcf5f5;
+    border:none;
+    border-radius: 12px;
+    padding:10px
+}
+
+.start-btn{
+    margin-top: 15px;
+    background-color: rgb(89, 202, 153);
+    color:#fcf5f5;
+    border:none;
+    border-radius: 12px;
+    padding:10px
+}
+
+.win-para{
+    color:green;
+    font-weight: 600;
+    text-align: center;
+    font-size: 25px;
+}
+.lost-para{
+    color:red;
+    font-weight: 500;
+    text-align: center;
+    font-size: 25px;
+}

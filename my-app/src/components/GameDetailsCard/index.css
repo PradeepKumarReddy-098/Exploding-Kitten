@@ -1,0 +1,35 @@
+.game-details-container{
+    height:250px;
+    width:100%;
+    padding: 20px;
+    border:1px solid #373434;
+    border-radius: 20px;
+    
+}
+
+.game-details-container p{
+    text-align: center;
+    font-size: 25px;
+}
+
+.count-container {
+    height:100%;
+    width:auto;
+}
+.count-container p{
+    margin:0;
+}
+.count-container h2{
+    text-align: center;
+}
+.img-details-container{
+    width:100%;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.card-image{
+    height:180px;
+    width:200px;
+    mix-blend-mode: darken;
+}
