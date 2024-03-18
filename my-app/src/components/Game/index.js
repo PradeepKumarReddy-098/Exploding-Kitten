@@ -166,12 +166,12 @@ useEffect(() => {
       <div className='game'>
         <div className='game-card-details-container'>
         <div>
+        {gameStatus === 'lose' && <p className="lost-para">You Lose! Exploding Kitten got you!</p>}
+        {gameStatus === 'win' && <p className="win-para">Congratulations! You won!</p>}
           <GameDetails selectedCard={selectedCard} defusesLeft={defusesLeft} cardsRemaining={remainingCards} />
           {selectedCard!==null && <p className='drawn-card-details'>You have drawn the {selectedCard.name}</p>}
         </div>
         {gameStatus==='progress'?<button onClick={drawCardFromDeck} className='draw-btn'>Click To Draw The Card</button>: <button type="button" className='start-btn' onClick={startNewGame}>Start New Game</button>}
-        {gameStatus === 'lose' && <p className="lost-para">You Lose! Exploding Kitten got you!</p>}
-        {gameStatus === 'win' && <p className="win-para">Congratulations! You won!</p>}
         </div>
         <LeaderBoard leaderBoardData={leaderBoardData} />
       </div>
